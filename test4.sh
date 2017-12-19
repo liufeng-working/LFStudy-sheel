@@ -6,6 +6,8 @@ done
 
 git init
 
+return
+
 git add .
 
 git commit -m 'test'

@@ -1,13 +1,11 @@
 
-for i in ${@}
+for i in "${*}"
 do
     echo ${i}
 done
 
-git init
+echo $((1 + 1))
 
-return
+exit
 
-git add .
-
-git commit -m 'test'
+printf "%20s\n" "liufeng"
